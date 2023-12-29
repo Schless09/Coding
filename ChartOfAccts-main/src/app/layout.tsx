@@ -2,8 +2,8 @@
 import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from "next/font/google";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import "./globals.css";
 import { Client } from "@clerk/nextjs/server";
 

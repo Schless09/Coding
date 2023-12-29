@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Hero from "./components/Hero";
-import JoinUs from "./components/JoinUs";
-import Video from "./components/Video";
+import Hero from "../components/Hero";
+import JoinUs from "../components/JoinUs";
+import Video from "../components/Video";
 
 export default function Home() {
   return (

@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-// import JobForm from "../components/JobForm";
 import { Email, Sms } from "@mui/icons-material";
 
 const CurrentOpenings = () => {
@@ -106,8 +105,7 @@ const CurrentOpenings = () => {
         </div>
       ))}
 
-      {/* <JobForm onCreateJob={addJob} /> */}
-    </div>
+       </div>
   );
 };
 
