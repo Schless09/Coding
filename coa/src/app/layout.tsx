@@ -116,7 +116,7 @@ export default async function RootLayout({
         <main>{children}</main>
 
         {/* Footer */}
-        <footer className="footer">
+        {/* <footer className="footer">
           <div className="container">
             <strong className="text-heading-2">KindeAuth</strong>
             <p className="footer-tagline text-body-3">
@@ -129,7 +129,8 @@ export default async function RootLayout({
               © 2023 KindeAuth, Inc. All rights reserved
             </small>
           </div>
-        </footer>
+        </footer> */}
+        <Footer />
       </body>
     </html>
   );
