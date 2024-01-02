@@ -1,5 +1,7 @@
 // components/Header.js
 import Link from "next/link";
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
+
 
 
 const Header = async () => {
@@ -25,7 +27,12 @@ const Header = async () => {
               How Our Business Works
             </span>
           </Link>
-         
+
+
+
+<LoginLink>Sign in</LoginLink>
+<RegisterLink>Sign up</RegisterLink>
+
         </div>
       </nav>
     </header>

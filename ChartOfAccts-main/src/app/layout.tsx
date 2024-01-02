@@ -1,11 +1,10 @@
 // RootLayout.js
 import type { Metadata } from "next";
-import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from "next/font/google";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "./globals.css";
-import { Client } from "@clerk/nextjs/server";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
+
       <html lang="en">
         <body
           className="bg-gradient-to-b from-teal-500 to-blue-500"
@@ -31,6 +30,6 @@ export default function RootLayout({
           <Footer />
         </body>
       </html>
-    </ClerkProvider>
+ 
   );
 }
