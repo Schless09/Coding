@@ -119,4 +119,10 @@ export const candidateReferrals = [
     clientName: "Upsilon Consulting",
     status: "Paid Out",
   },
+  {
+    id: 21,
+    candidateName: "Scarlett asdfa",
+    clientName: "Upsilon Consasdfulting",
+    status: "Paid Out",
+  },
 ];
